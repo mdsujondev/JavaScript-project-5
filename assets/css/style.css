@@ -45,7 +45,14 @@ a {
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(7px);
+  visibility: hidden;
+  opacity: 0;
 }
+#images .active_img.active{
+    visibility: visible;
+    opacity: 1;
+}
+
 #images .active_img img {
   position: relative;
   height: auto;
