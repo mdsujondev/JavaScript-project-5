@@ -23,7 +23,7 @@ images.forEach((el, index) => {
         }
         activeImgSrc.src = images[index].src
         
-        console.log(index);
+        // console.log(index);
         
 
     });
